@@ -1,0 +1,484 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.container {
+    max-width: 50%;
+    width: 100%;
+    margin: 0 auto;
+}
+/************************ container ************************/
+.content {
+    width: 100%;
+    height: auto;
+    background-color: #EEEEEE;
+}
+/************************ content background ************************/
+.content-heading-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.content-heading h1 {
+    font-size: 42px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #7900B5;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.content-heading-image img {
+    width: 100%;
+    height: auto;
+}
+.content-heading-name h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    color:#393E46;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.content-heading-position h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #00ADB5;
+    margin-bottom: 50px;
+}
+/************************ content heading ************************/
+.content-education-highschool {
+    margin-bottom: 40px;
+}
+.highschool-grid {
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    align-items: center;
+}
+.highschool-grid img{
+    width: 70px;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.highschool-grid h3.edu-heading {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #7900B5;
+}
+.highschool-grid h3.edu-content {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #393E46;
+}
+
+.content-education-bachelor {
+    margin-bottom: 40px;
+}
+.bachelor-grid {
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    align-items: center;
+}
+.bachelor-grid img {
+    width: 70px;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.bachelor-grid h3.bachelor-heading {
+    font-size: 20px;
+    color: #7900B5;
+}
+.bachelor-grid h3.bachelor-content {
+    font-size: 20px;
+    color: #393E46;
+}
+/************************ content education ************************/
+.content-summary p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #393E46;
+}
+.paragraph1 {
+    margin-bottom: 30px;
+}
+.paragraph2 {
+    margin-bottom: 30px;
+}
+.paragraph3 {
+    margin-bottom: 50px;
+}
+/************************ content summary ************************/
+.content-experience {
+    margin-bottom: 50px;
+}
+.content-experience h1 {
+    font-size: 30px;
+    color: #7900B5;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.content-experience h3.exp-heading {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #00ADB5;
+    margin-bottom: 5px;
+}
+.content-experience h3.exp-content {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #393E46;
+    margin-bottom: 20px;
+}
+.content-experience ul li {
+    font-size: 18px;
+    font-weight: bold;
+    color: #393E46;
+    list-style: inside;
+    margin-bottom: 5px;
+}
+/************************ content experience ************************/
+.content-achievment {
+    margin-bottom: 50px;
+}
+.content-achievment h1 {
+    font-size: 30px;
+    color: #7900B5;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.content-achievment h3.ach-heading {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #00ADB5;
+    margin-bottom: 5px;
+}
+.content-achievment h3.ach-content {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #393E46;
+    margin-bottom: 20px;
+}
+.content-achievment ul li {
+    font-size: 18px;
+    font-weight: bold;
+    color: #393E46;
+    list-style: inside;
+    margin-bottom: 5px;
+}
+/************************ content achievment ************************/
+.content-skill {
+    margin-bottom: 50px;
+}
+.content-skill h1 {
+    font-size: 30px;
+    color: #7900B5;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.uxdesign {
+    margin-bottom: 10px;
+}
+.uxdesign h3 {
+    display: inline-block;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #00ADB5;
+    margin-right: 0.5rem;
+}
+.uxdesign span {
+    font-size: 18px;
+    font-weight: bold;
+    color: #393E46;
+}
+.uidesign h3 {
+    display: inline-block;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #00ADB5;
+    margin-right: 0.5rem;
+}
+.uidesign span {
+    font-size: 18px;
+    font-weight: bold;
+    color: #393E46;
+}
+/************************ content skills ************************/
+.content-softwareSkill {
+    margin-bottom: 50px;
+}
+.content-softwareSkill h1{
+    font-size: 30px;
+    color: #7900B5;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.softwareSkill-uxuiDesign {
+    margin-bottom: 30px;
+}
+.softwareSkill-uxuiDesign h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #00ADB5;
+    margin-bottom: 20px;
+}
+.softwareSkill-uxuiDesign ul {
+    display: inline-block;
+    list-style: none;
+}
+.softwareSkill-uxuiDesign ul li {
+    float: left;
+}
+
+.softwareSkill-programming {
+    margin-bottom: 30px;
+}
+.softwareSkill-programming h3{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #00ADB5;
+    margin-bottom: 20px;
+}
+.softwareSkill-programming ul {
+    display: inline-block;
+    list-style: none;
+}
+.softwareSkill-programming ul li {
+    float: left;
+}
+
+.softwareSkill-animation h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #00ADB5;
+    margin-bottom: 20px;
+}
+.softwareSkill-animation ul {
+    display: inline-block;
+    list-style: none;
+}
+.softwareSkill-animation ul li {
+    float: left;
+}
+/************************ content software skills ************************/
+.content-contact {
+    margin-bottom: 70px;
+}
+.content-contact h1 {
+    font-size: 30px;
+    color: #7900B5;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.content-contact-phone {
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    margin-bottom: 30px;
+    align-items: center;
+}
+.content-contact-phone p {
+    font-weight: bold;
+    color: #393E46;
+}
+
+.content-contact-email {
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    align-items: center;
+}
+.content-contact-email p {
+    font-weight: bold;
+    color: #393E46;
+}
+/************************ content contact ************************/
+@media only screen and (max-width: 414px) {
+    .container {
+        max-width: 90%;
+        width: auto;
+    }
+    /********** mobile container *********/
+    .content-heading h1 {
+        margin-top: 30px;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .content-heading-name h1 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 24px;
+    }
+    .content-heading-position h1 {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+    /********** mobile content heading *********/
+    .content-education-highschool {
+        margin-bottom: 20px;
+    }
+    .highschool-grid {
+        display: block;
+    }
+    .highschool-grid img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 15px;
+        width: 50px;
+    }
+    .highschool-grid h3.edu-heading {
+        text-align: center;
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    .highschool-grid h3.edu-content {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .content-education-bachelor {
+        margin-bottom: 30px;
+    }
+    .bachelor-grid {
+        display: block;
+    }
+    .bachelor-grid img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 15px;
+        width: 50px;
+    }
+    .bachelor-grid h3.bachelor-heading {
+        text-align: center;
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    .bachelor-grid h3.bachelor-content {
+        text-align: center;
+        font-size: 16px;
+    }
+    /********** mobile content education *********/
+    .content-summary p.paragraph1 {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .content-summary p.paragraph2 {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .content-summary p.paragraph3 {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    /********** mobile content summary *********/
+    .content-experience {
+        margin-bottom: 30px;
+    }
+    .content-experience h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .content-experience h3.exp-heading {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    .content-experience h3.exp-content {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .content-experience ul li {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    /********** mobile content experience *********/
+    .content-achievment {
+        margin-bottom: 30px;
+    }
+    .content-achievment h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .content-achievment h3.ach-heading {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    .content-achievment h3.ach-content {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .content-achievment ul li {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    /********** mobile content achievment *********/
+    .content-skill {
+        margin-bottom: 30px;
+    }
+    .content-skill h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .uxdesign {
+        margin-bottom: 20px;
+    }
+    .uxdesign h3 {
+        font-size: 16px;
+    }
+    .uxdesign span {
+        font-size: 16px;
+    }
+
+    .uidesign h3 {
+        font-size: 16px;
+    }
+    .uidesign span {
+        font-size: 16px;
+    }
+    /********** mobile content skills *********/
+    .content-softwareSkill {
+        margin-bottom: 30px;
+    }
+    .content-softwareSkill h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .softwareSkill-uxuiDesign {
+        margin-bottom: 20px;
+    }
+    .softwareSkill-uxuiDesign h3.uxuiDesign-heading {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .softwareSkill-programming {
+        margin-bottom: 20px;
+    }
+    .softwareSkill-programming h3.programming-heading {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .softwareSkill-animation h3.animation-heading {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    /********** mobile content software skills *********/
+    .content-contact h1 {
+        font-size: 24px;
+    }
+    .content-contact-phone {
+        grid-template-columns: 1fr 4fr;
+    }
+    .content-contact-phone img {
+        width: 40px;
+    }
+
+    .content-contact-email {
+        grid-template-columns: 1fr 4fr;
+    }
+    .content-contact-email img {
+        width: 40px;
+    }
+}
