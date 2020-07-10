@@ -483,7 +483,7 @@
     }
 }
 /********************************** mobile vertical ****************************************/
-@media only screen and (max-width: 667px) and (min-width: 414px) {
+@media only screen and (max-width: 667px) and (min-width: 415px) {
     .container {
         max-width: 90%;
         width: auto;
