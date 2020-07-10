@@ -274,7 +274,7 @@
 
 .content-contact-phone {
     display: grid;
-    grid-template-columns: 1fr 10fr;
+    grid-template-columns: 1fr 13fr;
     margin-bottom: 30px;
     align-items: center;
 }
@@ -285,7 +285,7 @@
 
 .content-contact-email {
     display: grid;
-    grid-template-columns: 1fr 10fr;
+    grid-template-columns: 1fr 13fr;
     align-items: center;
 }
 .content-contact-email p {
